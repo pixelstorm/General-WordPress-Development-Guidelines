@@ -41,3 +41,189 @@ Firstly, try not to use a plugin if you dont have to. Consult with Senior dev if
 5. Woocommerce
 6. db-migrate
 7. query-monitor for local sites only
+
+## Recommended file structures 
+### Using Webpack https://carrieforde.com/webpack-wordpress/ install
+```
+theme /
+├── 404.php
+├── LICENSE
+├── README.md
+├── acf-json
+├── archive.php
+├── comments.php
+├── footer.php
+├── functions.php
+├── header.php
+├── inc
+    ├── acf.php
+    ├── template-functions.php
+    ├── template-tags.php
+├── index.php
+├── layouts
+├── node_modules
+├── package-lock.json
+├── package.json
+├── page.php
+├── phpcs.xml.dist
+├── public
+├── screenshot.png
+├── search.php
+├── sidebar.php
+├── single.php
+├── src
+    ├── images
+    ├── index.js
+    ├── js
+    ├── libs
+    └── sass
+         ├── _normalize.scss
+         ├── _slick-carousel.scss
+         ├── _slick-dots.scss
+         ├── blocks
+         │   ├── _accordion.scss
+         │   ├── _articles.scss
+         │   ├── _blocks.scss
+         │   ├── _box-slider.scss
+         │   ├── _buttons.scss
+         │   ├── _columns.scss
+         │   └── includes
+         │       ├── _featured-post.scss
+         │       ├── _location-filters.scss
+         │       ├── _post-filters.scss
+         │       └── _post-meta.scss
+         ├── elements
+         │   ├── _elements.scss
+         │   ├── _lists.scss
+         │   └── _tables.scss
+         ├── forms
+         │   ├── _buttons.scss
+         │   ├── _fields.scss
+         │   ├── _forms.scss
+         │   ├── _messages.scss
+         │   ├── _post-filters.scss
+         │   └── _select.scss
+         ├── layout
+         │   ├── _content-sidebar.scss
+         │   ├── _no-sidebar.scss
+         │   └── _sidebar-content.scss
+         ├── media
+         │   ├── _captions.scss
+         │   ├── _galleries.scss
+         │   └── _media.scss
+         ├── mixins
+         │   └── _mixins-master.scss
+         ├── modules
+         │   ├── _accessibility.scss
+         │   ├── _alignments.scss
+         │   ├── _clearings.scss
+         │   └── _infinite-scroll.scss
+         ├── navigation
+         │   ├── _breadcrumbs.scss
+         │   ├── _main.scss
+         │   ├── _mixins.scss
+         │   ├── _mobile.scss
+         │   ├── _navigation.scss
+         │   ├── _pagination.scss
+         │   └── _utility.scss
+         ├── site
+         │   ├── _editor.scss
+         │   ├── _site.scss
+         │   ├── primary
+         │   │   ├── _comments.scss
+         │   │   ├── _footer.scss
+         │   │   ├── _header.scss
+         │   │   └── _posts-and-pages.scss
+         │   └── secondary
+         │       └── _widgets.scss
+         ├── style.scss
+         ├── typography
+         │   ├── _copy.scss
+         │   ├── _headings.scss
+         │   └── _typography.scss
+         └── variables-site
+             ├── _colors.scss
+             ├── _columns.scss
+             ├── _structure.scss
+             ├── _typography.scss
+             └── _variables-site.scss
+├── style-editor.css
+├── style.css
+├── template-parts
+    ├── block
+    ├── content-accordion.php
+        ├── content-articles.php
+        ├── content-box-slider.php
+        ├── content-contact-form.php
+        ├── content-cta-with-form.php
+        ├── content-featured-post.php
+    ├── content-news.php
+    ├── content-none.php
+    ├── content-page-header.php
+    ├── content-page.php
+    ├── content-post.php
+    ├── content-postcard.php
+    ├── content-postmeta.php
+    ├── content-search.php
+    ├── content.php
+    └── includes
+├── webpack.config.js
+└── woocommerce.css
+```
+### Alternative file stucture using grunt
+```
+├── 404.php
+├── LICENSE
+├── README.md
+├── acf-json
+├── archive-project.php
+├── archive.php
+├── comments.php
+├── composer.json
+├── composer.lock
+├── css
+   ├── fancybox
+   └── select2
+├── dev
+    ├── Gruntfile.js
+    ├── js
+    ├── node_modules
+    ├── package-lock.json
+    ├── package.json
+    └── sass
+├── fonts
+├── footer.php
+├── front-page.php
+├── functions.php
+├── header.php
+├── home.php
+├── images
+├── inc
+    ├── acf.php
+    ├── custom-header.php
+    ├── customizer.php
+    ├── jetpack.php
+    ├── template-functions.php
+    ├── template-tags.php
+    └── woocommerce.php
+├── index.php
+├── js
+├── languages
+├── package.json
+├── page.php
+├── phpcs.xml.dist
+├── readme.txt
+├── screenshot.png
+├── search.php
+├── sidebar.php
+├── single-product.php
+├── single-project.php
+├── single.php
+├── style-rtl.css
+├── style.css
+├── template-parts
+├── vendor
+└── woocommerce
+```
+
+ 
