@@ -8,6 +8,11 @@
 6. Develop locally (i recommend "flywheel local" https://localwp.com/ ) deploy to a NOFOLLOW staging url.
 8. All text to be wrapped in either p, li or h1 to h3 tag. Dont use divs to wrap text. use div for layout.
 
+### WordPress Setup
+1. Choose a unique relavent username(not admin) for the main login username, ensure it is stong.
+2. Use stong password, store in lastpass and nowhere else.
+3. Ensure your local and staging site is set to no-follow
+
 ## Components
 1. Ensure banners and blog posts and all other components that use an image has a default image incase the image is not entered in the admin.
 2. When we create 'post cards' ensure the whole card is clickable not just the "read more" link.
