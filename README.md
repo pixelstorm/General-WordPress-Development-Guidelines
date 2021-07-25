@@ -2,7 +2,6 @@
 
 ## Overview WP
 1. Develop using php 7.4
-2. Commit your theme development to PixelStorm beanstalk repo
 3. Use [ Underscores ](https://underscores.me/) as the starter theme or if using webpack https://github.com/carrieforde/_s-with-webpack
 4. Use https://developer.wordpress.org/reference/functions/get_template_part/ and pass in the $ARGS to Remain DRY.
 6. Develop locally (i recommend "flywheel local" https://localwp.com/ ) deploy to a NOFOLLOW staging url.
@@ -25,6 +24,9 @@
 
 ## Wordpress Menus
 1. Construct wordpress menus using pages. Not custom links. Create the page if it does not exist.
+
+## Shortcodes
+1. Do not create custom shortcodes. Our preference is to build blocks instead of shortcodes. Please discuss before creating any custom shortcodes.
 
 ## Plugins
 Firstly, try not to use a plugin if you dont have to. Consult with Senior dev if your tempted to use a plugin before installing the plugin.
