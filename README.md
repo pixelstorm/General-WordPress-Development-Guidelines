@@ -3,8 +3,8 @@
 ## Overview WP
 1. Develop using php 7.4
 3. Use [ Underscores ](https://underscores.me/) as the starter theme or if using webpack https://github.com/carrieforde/_s-with-webpack
-4. Use https://developer.wordpress.org/reference/functions/get_template_part/ and pass in the $ARGS to Remain DRY.
 6. Develop locally (i recommend "flywheel local" https://localwp.com/ ) deploy to a NOFOLLOW staging url.
+7. Dont Use Absolute URLS in html links if not needed.
 8. All text to be wrapped in either p, li or h1 to h3 tag. Dont use divs to wrap text. use div for layout.
 
 ### WordPress Setup
