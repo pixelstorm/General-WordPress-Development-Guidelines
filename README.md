@@ -24,6 +24,8 @@
 
 ## Wordpress Menus
 1. Construct wordpress menus using pages. Not custom links. Create the page if it does not exist.
+![alt text](https://github.com/pixelstorm/General-WordPress-Development-Guidelines/blob/main/menus.png "menus")
+
 
 ## Shortcodes
 1. Do not create custom shortcodes. Our preference is to build blocks instead of shortcodes. Please discuss before creating any custom shortcodes.
