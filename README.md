@@ -10,7 +10,7 @@
 ### WordPress Setup
 1. Choose a unique relavent username(not admin) for the main login username, ensure it is stong.
 2. Use stong password, store in lastpass and nowhere else.
-3. Ensure your local and staging site is set to no-follow
+3. Ensure your local and staging site is set to discourage search engines
 ![alt text](https://github.com/pixelstorm/General-WordPress-Development-Guidelines/blob/main/discourage_search.png "discourage")
 
 
