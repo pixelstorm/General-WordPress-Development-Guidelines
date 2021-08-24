@@ -1,7 +1,7 @@
 # General Wordpress Development Overview
 
 ## Overview WP
-1. Develop using php 7.4
+1. Develop using php 8
 3. Use [ Underscores ](https://underscores.me/) as the starter theme or if using webpack https://github.com/carrieforde/_s-with-webpack
 6. Develop locally (i recommend "flywheel local" https://localwp.com/ ) deploy to a NOFOLLOW staging url.
 7. Dont Use Absolute URLS in html links if not needed.
