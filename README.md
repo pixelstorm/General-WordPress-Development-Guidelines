@@ -11,6 +11,8 @@
 1. Choose a unique relavent username(not admin) for the main login username, ensure it is stong.
 2. Use stong password, store in lastpass and nowhere else.
 3. Ensure your local and staging site is set to no-follow
+![alt text](https://github.com/pixelstorm/General-WordPress-Development-Guidelines/blob/main/discourage_search.png "discourage")
+
 
 ## Components
 1. Ensure banners and blog posts and all other components that use an image has a default image incase the image is not entered in the admin.
